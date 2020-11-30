@@ -1,0 +1,20 @@
+.largeHeader { 
+  color: rgb(59, 204, 252);
+  font-size: 50px;
+  padding: 0px; 
+  margin: 0px;
+} 
+.smallHeader { 
+  color: rgb(59, 204, 252);
+  font-size: 25px;
+  padding: 0px; 
+  margin: 0px;
+  float: left;
+} 
+
+.smallHeaderV2 { 
+  color: rgb(59, 204, 252);
+  font-size: 25px;
+  padding: 0px; 
+  margin: 0px;
+}

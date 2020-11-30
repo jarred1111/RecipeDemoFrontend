@@ -1,0 +1,172 @@
+.container {
+  /* padding: 100px; */
+  position: fixed;
+}
+
+.p {
+  color: lightgrey;
+}
+
+.h3 {
+  color: grey
+}
+
+.searchContainer {
+  height: 50px;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  background-color: black;
+}
+
+.searchInput {
+  height: 30px;
+  width: 70%;
+  border-radius: 10px;
+  padding-left: 5px;
+  color: grey
+}
+
+.searchBtn {
+  border-radius: 10px;
+  height: 35px;
+  width: 20%;
+  border: 1px solid rgb(59, 204, 252);
+  color: black;
+  background-color: rgb(59, 204, 252);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.mealListContainer {
+  width: 70%;
+  background-color: whitesmoke;
+  height: 1000px;
+  display: inline-block;
+  /* flex-direction: column; */
+  overflow-y: scroll;
+}
+
+.iDiv {
+  text-align: center;
+}
+
+.information {
+  padding-left: 20px;
+}
+
+.informationT {
+  padding-left: 20px;
+  display: inline-block;
+  width: 100%;
+}
+
+.informationTM {
+  display: inline-block;
+  width: 50%;
+}
+
+.mealFocusContainer {
+  width: 30%;
+  top: 140px;
+  bottom:0;
+  position:fixed;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  position: fixed;
+  display: inline-block;
+  background-color: white;
+  padding-bottom: 150px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid whitesmoke;
+}
+
+.nextBtn {
+  border: 1px solid rgb(59, 204, 252);
+  padding: 20px;
+  color: rgb(59, 204, 252);
+  cursor: pointer;
+  margin: 10px;
+}
+
+.funcBtn {
+  border: 1px solid rgb(59, 204, 252);
+  padding: 10px;
+  color: black;
+  background-color: rgb(59, 204, 252);
+  cursor: pointer;
+  margin: 10px;
+  width: 200px;
+  text-decoration: none;
+  height: 50px;
+  float: left;
+}
+
+.nextBtn:focus {
+  border: 1px solid rgb(59, 204, 252);
+  padding: 20px;
+  color: rgb(59, 204, 252);
+  cursor: pointer;
+  outline:0;
+}
+
+.nextBtn:hover {
+  border: 1px solid rgb(20, 245, 58);
+  padding: 20px;
+  color: rgb(59, 204, 252);
+  cursor: pointer;
+}
+
+table, th, td {
+  border: 1px solid lightgrey;
+}
+
+th {
+  padding: 10px;
+  height: 40px
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  padding-left: 10px;
+}
+
+tr:odd {
+  color: whitesmoke
+}
+
+thead {
+  background-color: lightgrey;
+}
+
+.mealSummaryCard {
+  display: inline-block;
+  margin: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.divider {
+  border: 1px solid lightgrey;
+  height: 1000px;
+  background-color: white;
+  display: inline-block;
+  width: 100%
+}
+
+.dividerContain {
+  display: inline-block;
+}
+
+.blackBackground {
+  background-color: black;
+}

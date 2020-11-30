@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { BrowserRouter as Router, Link, Route } from "react-router-dom";
+
+import Login from "./pages/Auth/Login";
+import Discover from './pages/Discover/Discover';
+import MyRecipe from './pages/MyRecipe/MyRecipe';
+
+import PrivateRoute from "./Utilities/Routing/PrivateRoute";
+import { AuthContext } from "./Utilities/context/auth";
 
 function App() {
+  const existingTokens = JSON.parse(localStorage.getItem("tokens"));
+  const [authTokens, setAuthTokens] = useState(existingTokens);
+
+  const setTokens = (data) => {
+    localStorage.setItem("tokens", JSON.stringify(data));
+    setAuthTokens(data);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AuthContext.Provider value={{ authTokens, setAuthTokens: setTokens }}>
+      <Router>
+        <div>
+          <PrivateRoute exact path="/" component={Discover}/>
+          <PrivateRoute path="/my-recipes" component={MyRecipe}/>
+          <Route path="/auth" component={Login} />
+        </div>
+      </Router>
+    </AuthContext.Provider>
   );
 }
 
