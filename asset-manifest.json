@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/RecipeDemoFrontend.git/static/css/main.285508f8.chunk.css",
+    "main.js": "/RecipeDemoFrontend.git/static/js/main.8bef0b86.chunk.js",
+    "main.js.map": "/RecipeDemoFrontend.git/static/js/main.8bef0b86.chunk.js.map",
+    "runtime-main.js": "/RecipeDemoFrontend.git/static/js/runtime-main.d181bae3.js",
+    "runtime-main.js.map": "/RecipeDemoFrontend.git/static/js/runtime-main.d181bae3.js.map",
+    "static/js/2.298752ca.chunk.js": "/RecipeDemoFrontend.git/static/js/2.298752ca.chunk.js",
+    "static/js/2.298752ca.chunk.js.map": "/RecipeDemoFrontend.git/static/js/2.298752ca.chunk.js.map",
+    "static/js/3.b26d66c7.chunk.js": "/RecipeDemoFrontend.git/static/js/3.b26d66c7.chunk.js",
+    "static/js/3.b26d66c7.chunk.js.map": "/RecipeDemoFrontend.git/static/js/3.b26d66c7.chunk.js.map",
+    "index.html": "/RecipeDemoFrontend.git/index.html",
+    "static/css/main.285508f8.chunk.css.map": "/RecipeDemoFrontend.git/static/css/main.285508f8.chunk.css.map",
+    "static/js/2.298752ca.chunk.js.LICENSE.txt": "/RecipeDemoFrontend.git/static/js/2.298752ca.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/RecipeDemoFrontend.git/static/media/food.095b14cf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d181bae3.js",
+    "static/js/2.298752ca.chunk.js",
+    "static/css/main.285508f8.chunk.css",
+    "static/js/main.8bef0b86.chunk.js"
+  ]
+}
